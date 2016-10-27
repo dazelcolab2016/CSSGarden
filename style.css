@@ -88,6 +88,14 @@ h2 {
   color: rgba(255,255,255,0.6);
   font-size: 1.6em;
   font-style: italic;
+  transition: all 2s;
+}
+    
+h2:hover
+{
+  color:rgb(234,65,0);
+  font-size: 60px    
+}
 }
 h2::before {
   content: " ";
